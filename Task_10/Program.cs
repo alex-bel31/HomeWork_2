@@ -3,7 +3,7 @@
 
 string x = Console.ReadLine();
 int userNumber = int.Parse(x);
-int secondNumber = userNumber / 10 % 10;
+int secondDigitNumber = userNumber / 10 % 10;
 if (userNumber>999)
 {
     Console.WriteLine("error");
@@ -11,7 +11,7 @@ if (userNumber>999)
 }
 else
 {
-    Console.WriteLine(secondNumber);
+    Console.WriteLine(secondDigitNumber);
 }
 
 
